@@ -11,5 +11,5 @@ fn main()
             42
         };
 
-    println(format!("The price of the {:s} is ${:d}", item, price));
+    println(format!("The price of the {} is ${}", item, price));
 }

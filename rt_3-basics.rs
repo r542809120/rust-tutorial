@@ -1,6 +1,6 @@
 fn recalibrate_universe(n: int) -> bool
 {
-    println(format!("Recalibrating the universe: {:i}...", n));
+    println(format!("Recalibrating the universe: {}...", n));
 
     // return true if n == 10, no semicolon here:
     n == 10
@@ -24,7 +24,7 @@ fn main()
     while n <= 10
     {
         n += 2;
-        println(format!("While looping with value {:i}!", n));
+        println(format!("While looping with value {}!", n));
     }
 
     // static items MUST have the type specified:

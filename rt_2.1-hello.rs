@@ -3,8 +3,8 @@
 fn main()
 {
     // basic message
-    println("Hello, world!");
+    println("Hello, World!");
 
     // same message with simple formatting
-    println(format!("Hello, {:s}!", "World"));
+    println(format!("Hello, {}!", "World"));
 }
