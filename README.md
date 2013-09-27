@@ -12,6 +12,8 @@ The files `rr_*.rs` are based on the book [Rust for Rubyists](http://www.rustfor
 - [ ] clean the documentation with some kind of Doxygen
 - [ ] find a way to **lint** the code
 - [ ] add a script to compile everything
-- [ ] add a script to clean everything (rm \*~ for example)
+- [ ] add a script to clean everything (`rm *~` for example)
 - [ ] use `format!("{}");` in most of the examples
 - [ ] rename the files properly according to the tutorial long names
+- [ ] don't forget to document the star-wildcard for enum pattern matching
+- [ ] document `struct_member.to_str();`
