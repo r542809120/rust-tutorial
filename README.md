@@ -8,9 +8,10 @@ The files `rr_*.rs` are based on the book [Rust for Rubyists](http://www.rustfor
 
 # TODO
 
-- [ ] move all TODOs from the code to GitHub
+- [ ] move all TODOs from the code and the README to GitHub
 - [ ] clean the documentation with some kind of Doxygen
 - [ ] find a way to **lint** the code
 - [ ] add a script to compile everything
 - [ ] add a script to clean everything (rm \*~ for example)
 - [ ] use `format!("{}");` in most of the examples
+- [ ] rename the files properly
