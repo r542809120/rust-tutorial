@@ -14,4 +14,4 @@ The files `rr_*.rs` are based on the book [Rust for Rubyists](http://www.rustfor
 - [ ] add a script to compile everything
 - [ ] add a script to clean everything (rm \*~ for example)
 - [ ] use `format!("{}");` in most of the examples
-- [ ] rename the files properly
+- [ ] rename the files properly according to the tutorial long names
