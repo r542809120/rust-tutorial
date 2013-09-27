@@ -26,4 +26,13 @@ fn main()
         n += 2;
         println(format!("While looping with value {:i}!", n));
     }
+
+    // static items MUST have the type specified:
+    static MAGIC_VALUE: int = 42;
+
+    // compiler warning since this variable is not used:
+    let i: int = MAGIC_VALUE;
+
+    // prepend the name with an underscore to prevent warnings:
+    let _size = 123;
 }
